@@ -33,9 +33,9 @@ services:
     container_name: nuxt_pgsql
     image: postgres:latest
     environment:
-      POSTGRES_DB: app_db
-      POSTGRES_USER: root
-      POSTGRES_PASSWORD: password
+      POSTGRES_DB: POSTGRES_DB
+      POSTGRES_USER: POSTGRES_USER
+      POSTGRES_PASSWORD: POSTGRES_PASSWORD
     volumes:
       - habrdb-data:/var/lib/postgresql/data
 
